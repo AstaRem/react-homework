@@ -1,0 +1,122 @@
+:root {
+    --blue: #23315f;
+    --blue-hover: #384675;
+    --green: #163f34;
+    --green-hover: #31695a;
+    --red: #681a2c;
+    --red-hover: #7a3747;
+    --orange: #c66e00;
+    --orange-hover: #ce8b3a;
+    --purple: #432143;
+    --purple-hover: #6b456b;
+}
+
+fieldset {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sq-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+    align-items: flex-start;
+}
+
+button {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: var(--green);
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 200px;
+    margin: 0 10px;
+}
+
+button:hover,
+button:focus {
+    background-color: var(--green-hover);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+.btn-add {
+    background-color: var(--green);
+}
+
+.btn-add:hover {
+    background-color: var(--green-hover);
+}
+
+.btn-start-again {
+    background-color: var(--red);
+}
+
+.btn-start-again:hover {
+    background-color: var(--red-hover);
+}
+
+.input-sq {
+    margin-bottom: 20px;
+    border: 1px solid var(--green);
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.red-sq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: var(--red);
+}
