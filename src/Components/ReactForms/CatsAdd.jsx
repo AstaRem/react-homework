@@ -15,7 +15,7 @@ useEffect(() => {
     if(storedCats){
         setCats(JSON.parse(storedCats));
     }
-})
+}, [])
 
 
 const saveCat = (e) => {
