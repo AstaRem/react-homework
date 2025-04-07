@@ -121,3 +121,21 @@ button:hover {
     color: white;
     background-color: var(--red);
 }
+
+.linked-input {
+    border: 1px solid var(--green);
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    margin: 10px 0
+}
+
+.wrapper-customText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
